@@ -1,0 +1,277 @@
+/* Background images */
+
+  .background-index1 {
+    background-image: url(../images/istock-purple-io.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+.background-light {
+  background-image: url(../images/light-sideways.jpg);
+  background-size: cover;
+  
+    #logo-big-index {
+    width: 15em;
+    max-width: 100%;
+    height: auto;
+  } 
+}
+
+/* ABOUT */
+
+.background-image1 {
+  background-image: url(../images/istock-about.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  max-width: 100%;
+
+}
+.container2 {
+  margin: 0em 1em 3em 1.5em;
+  h1 i {
+    margin-left: -0.1em;
+  font-weight: bold;
+  color: #8753CF}
+  h2 {
+  color: #fff1f1;
+  font-style: italic;
+  font-size: 22px;
+  margin-top: -0.8em;
+  margin-left: -0.2em;
+}
+  h2:hover {
+  color: #ff00c3;
+  cursor: grabbing;
+  text-transform: uppercase;
+}
+  h3 {
+  font-family: exo Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.1em;
+  color: #cecece;
+  font-weight: 500;
+  margin-left: 0em;
+
+  }
+  h4 {
+  font-family: Arima Madurai, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  font-style: oblique;
+  margin: 1em 1em 2em 0.1em;
+  color: #f6f6f6;
+  }
+}
+
+@media (max-width: 238px) {
+ .contact-submit {
+  display: none;
+ }
+}
+
+/* CONTACT US button on ABOUT*/
+
+/**/
+.contact-submit {
+  background-color: #32202d;
+  color: #FFFFFF;
+  border-radius: 5px;
+  font-family: exo;
+  font-size: 22px;
+  padding: 1em 2em;
+  text-decoration: none;
+}
+
+.contact-submit:hover {
+  text-transform: lowercase;
+  color: #b400b4
+}
+
+/* contact */
+
+.background-image2 {
+  background-image: url(../images/camera-sky-contact.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: space-between;
+  padding: 2em 1em;
+  padding-bottom: 3em;
+}
+
+/* contact us text*/
+
+.white-contact-text {
+  width: 250px;
+  margin: -1em 0em 2.5em 0.1em;
+  font-size: 20px;
+}
+
+/* Contact us */
+
+.white-l {
+  font-family: exo, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 1em;
+  margin-top: -1.5em;
+  width: 200px;
+  justify-content: left;
+}
+
+.white-l fieldset {
+ margin-left: -0.7em;
+}
+
+.white-l input {
+  padding: 0.5em 2em;
+  border-radius: 5px;
+  width: 11em;
+}
+
+.white-l label {
+  font-size: 14px;
+  color: #ffdfff;
+}
+
+.white-l legend {
+  font-size: 18px;
+  margin-left: auto;
+  color: #e3e3e3;
+}
+
+.white-l #dirname {
+  width: 10em;
+  padding: 2.5em;
+  
+}
+
+aside .white-l .submit-button {
+  background-color: #32202d;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-top: 0.5em;
+  font-size: 16px;
+  width: 12.7em;
+  height: 3em;
+}
+/**/
+
+/* sign up matterful and mail input*/
+
+ .sign-up-matterful {
+  max-width: 100%;
+  height: auto;
+  background-color: #000;
+  margin-left: 0.2em;
+  padding: 0.1em 1em;
+  color: #fff;
+}
+
+div .submit-button {
+  width: 15.6em;
+  height: 3em;
+  margin-left: 0.5em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.email label {
+  color: #f1efefee;
+  margin-left: 0.3em;
+  font-family: montserrat Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.email .form__input {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  margin-left: 0.5em;
+  width: 15em;
+  height: 2em;
+}
+
+/* "Most newsletter suck"*/
+
+h6 { 
+  max-width: 100%;
+  height: auto;
+  font-size: medium;
+  font-weight: 300;
+  margin-top: -2.5em;
+  margin-left: 0.3em;
+  font-family: montserrat;
+  text-align: left;
+  color: #FFF;
+}
+/**/
+
+aside h4 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  color: #ffff;
+  font-family: exo Verdana, Geneva, Tahoma, sans-serif;
+ }
+/**/
+
+/* This is for showing my labels on my contact page.
+The burgermenu is hiding my labels in my forms with the @media*/
+
+form label {
+  display: inline;
+}
+/**/
+
+/* This is contact-submit page*/
+
+.background-image3 {
+ background-image: url(../images/earth.jpg);
+ background-size: cover;
+ height: auto;
+ max-width: 100%;
+ padding-top: 4px;
+}
+
+.background-image3 h2, h3, h4 {
+  max-width: 250px;
+  margin: 1em 0.5em 0em 1em;
+  line-height: 1em;
+}
+
+.background-image3 h4 {
+  margin-left: 1.5em;
+  margin-top: 1em;
+}
+
+.background-image3 h1 {
+  margin-left: 0.9em;
+  margin-bottom: -0.5em;
+  font-size: 22px;
+  font-weight: lighter;
+  font-style: italic;
+  font-family: exo, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#semi-circle {
+ border-radius: 50%;
+ margin: 0 auto;
+ height: auto;
+ width: 20em;
+ max-width: 100%;
+}
+
+.map-circle {
+   text-align: center;
+   margin: 0 auto;
+   padding: 0.5em 1em 8% 1em;
+}

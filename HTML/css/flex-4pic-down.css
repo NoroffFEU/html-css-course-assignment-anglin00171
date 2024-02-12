@@ -1,0 +1,68 @@
+ /*This is 4 small images down at the footer*/
+
+aside {
+    width: 100%;
+  }
+
+  .flex4 {
+    display: flex;
+    gap: 0.5rem ; 
+    flex-wrap: wrap; 
+    flex-direction: row;
+    justify-content: left; 
+    padding-top: 1.5em;
+    h4 {
+      font-weight: 200;
+    }
+  }
+
+  .flex4 div {
+    display: flex;
+    width: 150px;
+    text-align: center;
+    background: #000000;
+    margin-right: 0.3em;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5em;
+  }
+
+  @media (max-width: 674px) {
+    .flex4 {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+
+.custom-image1,
+.custom-image2,
+.custom-image3,
+.custom-image4 {
+  height: auto;
+  max-width: 100%;
+}
+
+/*This is Priscilla*/
+.custom-image1 {
+  width: 5.9em;
+  margin-left: 1.4em;
+}
+
+/*This is Salt*/
+.custom-image2 {
+  width: 6.2em;
+  margin-left: 1.2em;
+  margin-top: 1em;
+}
+
+/*Hunger*/
+ .custom-image3 {
+  width: 8.8em;
+  padding-top: 3.7em;
+ }
+
+ /* marvel2 */
+ .custom-image4 {
+  width: 8.8em;
+  padding-top: 3.7em;
+ }
